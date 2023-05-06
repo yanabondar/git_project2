@@ -1,6 +1,9 @@
-num1 = input("First number")
-num2 = input("Second number")
+numbers =[1, 2]
 
-sum = num1 + num2
+total = 0
 
-print("Sum of", num1, "and", num2, "is", sum)
+for num in numbers:
+    total += num
+print(total)
+
+
