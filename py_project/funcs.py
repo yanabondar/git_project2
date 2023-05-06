@@ -1,20 +1,22 @@
-numbers = [1, 2]
+def summ():
+    numbers = [1, 2]
 
-total = 0
+    total = 0
 
-for num in numbers:
-    total += num
-print(total)
+    for num in numbers:
+       total += num
+    print(total)
 
-numbers = [8, 2]
+def subb():
+    numbers = [8, 2]
 
-total = 0
+    total = 0
 
-for num in numbers:
-    if total == 0:
-        total += num
-    else:
-        total -= num
-print(total)
+    for num in numbers:
+       if total == 0:
+         total += num
+       else:
+         total -= num
+    print(total)
 
 
