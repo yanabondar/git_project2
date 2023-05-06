@@ -7,6 +7,8 @@ def summ():
        total += num
     print(total)
 
+summ()
+
 def subb():
     numbers = [8, 2]
 
@@ -18,5 +20,7 @@ def subb():
        else:
          total -= num
     print(total)
+
+subb()
 
 
